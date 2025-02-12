@@ -1,0 +1,11 @@
+num=(int)(input("Enter a 4 digit Number: "))
+d=num%10
+num=num//10
+d1=num%10
+num//=10
+d2=num%10
+num//=10
+d3=num%10
+num//=10
+sum=d+d1+d2+d3
+print("SUM:",d,"+",d1,"+",d2,"+",d3,"=",sum)

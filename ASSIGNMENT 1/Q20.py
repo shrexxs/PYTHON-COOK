@@ -1,0 +1,10 @@
+import math
+a=(int)(input("enter one integer"))
+b=(int)(input("enter another integer"))
+print("Sum of the two numbers:",(a+b))
+print("Difference when b is subtracted from a:",(b-a))
+print("Product of the two numbers:",(a*b))
+print("Quotient when a is divided from b:",(a/b))
+print("Remainder when a is divided from b:",(a%b))
+print("Result Of log10 a:",(math.log(a,10)))
+print("Result Of a to the power b:",(a**b))
